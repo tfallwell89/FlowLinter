@@ -157,7 +157,7 @@ namespace FlowLinter
 		}
 
 		/// <summary>
-		/// Adds the scarlet box behind the 'a' characters within the given line
+		/// Adds the scarlet box around a line with an error
 		/// </summary>
 		/// <param name="line">Line to add the adornments</param>
 		private void CreateVisuals(SnapshotPoint start, SnapshotPoint end)
